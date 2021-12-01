@@ -1,0 +1,16 @@
+.filter_nav_container {
+  padding: 1%;
+}
+
+.filter_nav_container_element {
+  display: flex;
+  list-style: none;
+  padding-bottom: 1%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.filter_nav_container_element li {
+  margin-right: 3%;
+  font-size: 1.3rem;
+  cursor: pointer;
+}

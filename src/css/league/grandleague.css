@@ -1,0 +1,5 @@
+.grandLeague_container {
+  padding: 1% 0;
+  display: flex;
+  justify-content: space-around;
+}

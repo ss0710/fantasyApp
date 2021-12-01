@@ -1,0 +1,62 @@
+.my_funds_card_container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.my_funds_card_heading_div {
+  background-color: rgba(128, 128, 128, 0.644);
+  padding: 1%;
+}
+
+.my_funds_card_heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.my_funds_card_details {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 2%;
+}
+
+.my_funds_card_score_heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.952);
+  letter-spacing: 1px;
+}
+
+.my_funds_card_stocks_heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.952);
+  letter-spacing: 1px;
+}
+
+.my_funds_card_nifty button {
+  font-size: 1.7rem;
+  background-color: rgba(255, 255, 0, 0.767);
+  width: 150px;
+  height: 40px;
+  border: 1px solid yellow;
+  border-radius: 5px;
+}
+
+.my_funds_card_score_number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.781);
+  text-align: center;
+}
+
+.my_funds_card_stocks_number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.781);
+  text-align: center;
+}

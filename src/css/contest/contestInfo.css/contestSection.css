@@ -1,0 +1,23 @@
+.contest_section_container {
+  padding: 1%;
+}
+
+.contest_section_buttons {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contest_section_button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  width: 10%;
+  padding: 1% 5%;
+  border-bottom: none;
+  background-color: rgb(240, 239, 239);
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 5px 5px 0 0;
+  margin: 0 1%;
+  border-radius: 10px 10px 0 0;
+  text-decoration: none;
+  text-align: center;
+}

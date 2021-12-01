@@ -1,0 +1,19 @@
+.my_funds_container {
+  padding: 1%;
+}
+
+.add_icon_div {
+  padding: 0 2%;
+  width: 5%;
+}
+
+.plus_icon {
+  color: rgb(0, 183, 255);
+  cursor: pointer;
+}
+
+.add_icon_div p {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+}

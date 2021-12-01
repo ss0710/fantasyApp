@@ -1,0 +1,29 @@
+.my_contest_card_container {
+  width: 47%;
+  border: 2px solid rgba(48, 48, 255, 0.699);
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.my_contest_card_container_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.my_contest_card_timing {
+  display: flex;
+}
+
+.my_contest_card_heading p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 255, 0.603);
+}
+
+.my_contest_card_timing {
+  padding: 5% 0;
+}
+
+.my_contest_card_timing p {
+  font-size: 1.6rem;
+}

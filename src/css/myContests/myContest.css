@@ -1,0 +1,32 @@
+.my_contest_container {
+  padding: 1% 2%;
+}
+
+.my_contest_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.my_contest_heading {
+  padding: 2% 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.my_contest_card_div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contest_view_all_text {
+  color: blue;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.contest_heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

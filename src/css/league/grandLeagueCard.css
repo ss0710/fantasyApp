@@ -1,0 +1,55 @@
+.grandLeagueCard_container {
+  min-width: 500px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  margin-right: 20px;
+}
+
+.leagueCard_heading_div {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(231, 158, 0);
+  color: white;
+}
+
+.card_heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.card_winning_price {
+  color: rgb(0, 89, 255);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card_winners_count {
+  color: rgb(0, 89, 255);
+  font-weight: bold;
+}
+
+.leagueCard_details {
+  padding: 3% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.league_card_button {
+  width: 70px;
+  font-size: 1.3rem;
+  padding: 8%;
+  cursor: pointer;
+  background-color: rgb(36, 87, 252);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.league_card_button:hover {
+  margin-top: -2px;
+  box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -webkit-box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -moz-box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+}

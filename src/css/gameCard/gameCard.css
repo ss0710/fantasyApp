@@ -1,0 +1,87 @@
+.gameCard_container {
+  padding: 0.8%;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  width: 280px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 13px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -webkit-box-shadow: 13px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -moz-box-shadow: 13px 14px 9px -8px rgba(73, 72, 72, 0.68);
+}
+
+.gameCard_container_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.gameCard_win_price p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(231, 39, 39);
+}
+
+.gameCard_pay_price p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.gameCard_spots p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.gameCard_winners {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+.gameCard_winners p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.gameCard_winners button {
+  width: 25%;
+  font-size: 1.3rem;
+  height: 35px;
+  cursor: pointer;
+  background-color: rgb(36, 87, 252);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.gameCard_winners button:hover {
+  margin-top: -1px;
+  box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -webkit-box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -moz-box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+}
+
+.skill-bar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.skill-progress {
+  width: 100%;
+}
+
+.progress {
+  width: 100%;
+  height: 0.2rem;
+  background-color: rgba(128, 128, 128, 0.329);
+  position: relative;
+}
+
+.inner-pregress {
+  position: absolute;
+  background-color: red;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+}

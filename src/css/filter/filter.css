@@ -1,0 +1,143 @@
+.filter_container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(128, 128, 128, 0.205);
+  margin: 2%;
+  border: 1px solid rgba(0, 0, 0, 0.308);
+  border-radius: 10px;
+}
+
+.filter_container select {
+  font-size: 1.3rem;
+  width: 80%;
+  padding: 1%;
+  margin-top: 10px;
+}
+
+.filter-icon-div {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  flex-grow: 0.3;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.filter-icon-div p {
+  color: white;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.filter-option-win-rs {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.filter-option-win-rs p {
+  font-size: 1.3rem;
+}
+
+.filter-option-pay-rs {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.filter-option-pay-rs p {
+  font-size: 1.3rem;
+}
+
+.filter-team-size {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.filter-team-size p {
+  font-size: 1.3rem;
+}
+
+.filter-reset {
+  flex-grow: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.filter-reset button {
+  font-size: 1.3rem;
+  width: 100%;
+  height: 30%;
+  margin-left: -10px;
+  background-color: rgb(58, 248, 58);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.562);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-reset button:hover {
+  margin-top: -1px;
+  box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -webkit-box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+  -moz-box-shadow: 1px 14px 9px -8px rgba(73, 72, 72, 0.68);
+}
+
+.filterIcon {
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .filter_container {
+    flex-direction: column;
+  }
+
+  .filter-icon-div {
+    border-radius: 10px;
+  }
+
+  .filter-option-win-rs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+    margin-left: 0;
+  }
+
+  .filter-option-pay-rs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+  }
+
+  .filter-team-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+  }
+
+  .filter-reset {
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .filter-reset button {
+    width: 30%;
+    margin-left: 0;
+  }
+}

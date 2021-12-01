@@ -1,0 +1,18 @@
+.leaderboard_conatiner table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  font-size: 1.3rem;
+  margin: 3% 0;
+  width: 100%;
+}
+
+.leaderboard_conatiner td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.leaderboard_conatiner tr:nth-child(even) {
+  background-color: #dddddd;
+}
